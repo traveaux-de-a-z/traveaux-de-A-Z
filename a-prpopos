@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notre Société - Travaux de A à Z</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+      <span class="logo-icon">♻️</span>
+      <span>Travaux de A à Z</span>
+    </div>
+
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">Société</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="mobile-menu-btn" id="mobile-menu-btn">
+      ☰
+    </div>
+
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Accueil</a>
+    <a href="a-propos.html">Société</a>
+    <a href="contact.html">Contact</a>
+</div>
+
+<!-- HERO -->
+
+<section class="about-hero">
+
+    <div class="about-overlay"></div>
+
+    <div class="about-hero-content">
+
+        <h1>
+            Une entreprise engagée dans la rénovation et la mise en conformité
+        </h1>
+
+        <p>
+            Travaux de A à Z accompagne les professionnels,
+            hôpitaux, EHPAD, collectivités et particuliers
+            dans leurs projets de rénovation et d’aménagement.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- HISTOIRE -->
+
+<section class="about-story">
+
+    <div class="section-title">
+        <h2>Notre Histoire</h2>
+        <p>
+            Une expertise terrain au service des projets techniques et exigeants.
+        </p>
+    </div>
+
+    <div class="story-grid">
+
+        <div class="story-text">
+
+            <h3>Un savoir-faire polyvalent</h3>
+
+            <p>
+                Grâce à notre expérience dans le bâtiment et les travaux
+                tous corps d’état, nous intervenons sur des projets de
+                rénovation, réhabilitation et mise aux normes avec une
+                approche professionnelle et rigoureuse.
+            </p>
+
+            <p>
+                Nous proposons des solutions adaptées aux contraintes
+                des établissements de santé, des EHPAD, des bâtiments
+                industriels et des logements particuliers.
+            </p>
+
+            <p>
+                Notre objectif est de fournir des prestations fiables,
+                durables et conformes aux exigences techniques actuelles.
+            </p>
+
+        </div>
+
+        <div class="story-image"></div>
+
+    </div>
+
+</section>
+
+<!-- EXPERTISE -->
+
+<section class="expertise">
+
+    <div class="section-title">
+        <h2>Nos Domaines d’Expertise</h2>
+    </div>
+
+    <div class="expertise-grid">
+
+        <div class="expertise-card">
+            <h3>Mise en conformité</h3>
+            <p>
+                Adaptation des locaux selon les normes de sécurité et d’accessibilité.
+            </p>
+        </div>
+
+        <div class="expertise-card">
+            <h3>Travaux Hospitaliers</h3>
+            <p>
+                Interventions adaptées aux environnements médicaux et sensibles.
+            </p>
+        </div>
+
+        <div class="expertise-card">
+            <h3>Rénovation Intérieure</h3>
+            <p>
+                Modernisation complète des espaces professionnels et privés.
+            </p>
+        </div>
+
+        <div class="expertise-card">
+            <h3>Gestion de chantier</h3>
+            <p>
+                Coordination des différents corps de métier et suivi rigoureux.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ENGAGEMENT -->
+
+<section class="about-values">
+
+    <div class="values-container">
+
+        <div class="value-box">
+            <h3>Réactivité</h3>
+            <p>
+                Une équipe disponible pour répondre rapidement à vos besoins.
+            </p>
+        </div>
+
+        <div class="value-box">
+            <h3>Qualité</h3>
+            <p>
+                Des matériaux et finitions adaptés aux exigences professionnelles.
+            </p>
+        </div>
+
+        <div class="value-box">
+            <h3>Conformité</h3>
+            <p>
+                Respect des normes techniques et réglementaires.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="footer-content">
+
+      <h3>Travaux de A à Z</h3>
+
+      <p>
+        Entreprise spécialisée en rénovation et travaux tous corps d’état.
+      </p>
+
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="a-propos.html">Société</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
