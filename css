@@ -1,40 +1,90 @@
-/* ABOUT PAGE */
-
-.about-hero{
-    height:70vh;
-
-    background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('images/about-banner.jpg');
-
-    background-size:cover;
-    background-position:center;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-    padding:0 20px;
-
-    color:white;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #1f1f1f;
 }
 
-.about-hero-content{
-    max-width:900px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #0b3d2e;
+  color: white;
 }
 
-.about-hero h1{
-    font-size:3.7rem;
-    margin-bottom:25px;
-    line-height:1.2;
+.header nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
 }
 
-.about-hero p{
-    font-size:1.2rem;
-    color:#e5e5e5;
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #e9f7ef;
 }
 
+.hero h2 {
+  color: #0b3d2e;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0b3d2e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-left: 5px solid #0b3d2e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background: #0b3d2e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b3d2e;
+  color: white;
+}
 .about-story{
     padding:120px 8%;
     background:white;
